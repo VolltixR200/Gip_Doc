@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
             </div>
             <br/>
-            <hr style={{color:"white", height:'5px', width:'90%'}}/>
+            <hr style={{color:"white", height:'5px', width:'60%'}}/>
             <br/>
             <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-1 lg:text-left">
                 <div
