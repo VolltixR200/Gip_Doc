@@ -21,7 +21,7 @@ export default function Home() {
             <div style={{height: "40vh"}}
                  className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
                 <h1 style={{fontSize: "6vh"}}>
-                    <img style={{borderRadius:"50%"}} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUAAAD///+Tk5P8/Pxubm719fXNzc3s7Ozc3Nybm5uIiIji4uKwsLAuLi75+fnU1NSjo6NjY2NRUVGCgoKqqqpaWlq/v7/g4OB2dnbGxsa5ubkjIyM7OzsJCQlGRkYbGxtR4SmvAAACcElEQVR4nO3ZaVYbQQxFYWRssDHz4IAxZv+7DDlJA+6hSk1XRZLP/Vag96v69D05AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGSX1gfUNpN76xMqE1lbn1DXVkQerI+oafcxUE6tr6hp+WehPFqfUc9c/nq1PqSaxb+FZ9aH1LKSxpP1KXW8fQ6Uc+tb6th8LZQL62Nq2Mt31tfUsD5YeISfp89y6Mr6oOKuWwtvrA8q7Vba7qxPKuu9M/DYXoyX7kKZWR9V0n3PwON6Mc57F26tzyrnoXegyM76sGJOBxYurQ8r5XFgoMjc+rQyXgcHysL6tjLOhhfKyvq4Ep4SA4/jxeh/KRob6/Omu0gOFNlbHzhZZqD8sj5wqsvcQnm2PnGaq+xAuba+cZqb/EK5tT5yijvFQJF36zMnWOTnfXixPvPnZqqBEjiaKgfGjaZb7cKo0XSnHhg1mi71C2NG03l+1zcRo6nupWgEjKar/KoD4aLpW37ToXC/wDf5TS3Bouk+v6jD+uZx1vlBHaGiaTuH6kSKpu0cqhMomnZzqE6YaNqTQ3XCvBh9OVQnSDTtz6E61rfrpH9yp4WIpkM5VCdCNB3KoToBoulwDtVxH00TOVTHfTRN5VAd59E0nUN1rDekTXkpGq6jaS6H6niOpkUGeo6m+Ryq4zaaKnKojttoqsmhOk6jqS6H6viMpiVeiobLaKrNoToeo2nRgR6jqT6H6riLpiNyqI67aDomh+o4i6bjcqiOr2g6LofquIqmY3OojqNoOjqH6jj6Bf7zn9xpQX6BAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/H+/ASNrFaCFQOJnAAAAAElFTkSuQmCC" alt="Vercel Logo" width={200} height={200} />
+                    <img style={{borderRadius:"50%"}} src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/30307/images/ZsUnCVKRSeSWIZQgQvJa_backward_forward.png" width={400} height={400} />
                 </h1>
             </div>
 
@@ -50,19 +50,24 @@ export default function Home() {
                         Samenwerking en Obstakels:
                     </h2>
                     <p className="mb-4 text-base text-gray-700 dark:text-gray-300">
-                        In januari startten we met het opstellen van de websitebestanden en probeerden we contact op te nemen met Smartschool voor samenwerking. Helaas werd dit verzoek afgewezen, waardoor we afhankelijk waren van de ICT-afdeling voor toegang tot de benodigde programma’s en informatie over de leerkrachten en hun lesroosters.
+                        In januari startte we met het opstellen van de websitebestanden en probeerden we contact op te nemen met Smartschool voor samenwerking. Helaas werd dit verzoek afgewezen, waardoor we afhankelijk waren van de ICT-afdeling voor toegang tot de benodigde programma’s en informatie over de leerkrachten en hun lesroosters.
                     </p>
                     <p className="mb-4 text-base text-gray-700 dark:text-gray-300">
-                        Van januari tot april wachtten we op een antwoord van ICT en volgden we stage. Tijdens deze stage leerden we React, wat ons deed besluiten om de programmeertaal van Flask naar React te veranderen. Dit vereiste veel werk, waaronder het verfraaien van de interface met CSS.
+                        Van januari tot april wachtten we op een antwoord van ICT en volgden we stage. Tijdens deze stage leerden we <a
+                        href="/docs/react" style={{textDecoration:"underline", color:'blue'}}>React</a>, wat ons deed
+                        besluiten om de programmeertaal van Flask naar React te veranderen. Dit vereiste veel werk,
+                        waaronder het verfraaien van de interface met CSS.
                     </p>
                     <h2 className="mb-5 text-3xl font-semibold text-gray-900 dark:text-gray-100">
                         Hosting en Eindfase:
                     </h2>
                     <p className="mb-4 text-base text-gray-700 dark:text-gray-300">
-                        In mei probeerden we de applicatie te hosten, wat ingewikkelder bleek dan verwacht. Onze oorspronkelijke keuze was Azure, maar vanwege trage toegang vanuit de ICT-afdeling moesten we andere oplossingen onderzoeken, zoals Firebase. Hoewel Firebase handig was voor hosting, voldeed het niet als database. Dit leidde tot veel aanpassingen en kostte ons veel tijd.
+                        In mei probeerden we de applicatie te hosten, wat ingewikkelder bleek dan verwacht. Onze oorspronkelijke keuze was Microsoft Azure, maar vanwege trage toegang vanuit de ICT-afdeling en errors die we niet opgelost kregen moesten we andere oplossingen onderzoeken, zoals Firebase. Hoewel Firebase handig was voor hosting van <a
+                        href="/docs/react" style={{textDecoration:"underline", color:'blue'}}>React</a> front-end, voldeed het niet als back-end. Dit leide tot veel aanpassingen en koste ons veel tijd.
                     </p>
                     <p className="mb-4 text-base text-gray-700 dark:text-gray-300">
-                        Uiteindelijk moesten we opnieuw van platform veranderen naar Vercel, wat een laatste wijziging in de programmeertaal naar Next.js vereiste. Ondanks deze tegenslagen is het ons gelukt om het project op tijd af te ronden.
+                        Uiteindelijk moesten we opnieuw van platform veranderen naar <a style={{textDecoration:"underline", color:'blue'}} href="/docs/vercel">Vercel</a>, wat een laatste wijziging in de programmeertaal naar <a
+                        href="/docs/nextjs" style={{textDecoration:"underline", color:'blue'}}>Next.js</a> vereiste. Ondanks deze tegenslagen is het ons gelukt om het project op tijd af te ronden.
                     </p>
                     <h2 className="mb-5 text-3xl font-semibold text-gray-900 dark:text-gray-100">
                         Conclusie:
