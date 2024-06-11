@@ -62,6 +62,16 @@ export default function Home() {
                                                                   className="text-blue-500">desmetlars5@gmail.com</a>.
                     </p>
                 </div>
+                <div
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className="mb-3 text-2xl font-semibold">
+                        CV
+                    </h2>
+                    <p className="m-0 text-sm opacity-75">
+                        Voel je vrij om mijn cv te downloaden via <a href="/cv/CV-Lars-Desmet.pdf"
+                                                                  className="text-blue-500" download>LarsDesmetCV.pdf</a>.
+                    </p>
+                </div>
             </div>
             <br/>
             <hr style={{color:"white", height:'5px', width:'60%'}}/>
@@ -100,6 +110,16 @@ export default function Home() {
                     <p className="m-0 text-sm opacity-75">
                         Voor verdere vragen of informatie kunt u contact met mij opnemen via: <a href="mailto:milo.palmaerts@gmail.com"
                                                                   className="text-blue-500">milo.palmaerts@gmail.com</a>.
+                    </p>
+                </div>
+                <div
+                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
+                    <h2 className="mb-3 text-2xl font-semibold">
+                        CV
+                    </h2>
+                    <p className="m-0 text-sm opacity-75">
+                        Voel je vrij om mijn cv te downloaden via <a href="/cv/cv.pdf"
+                                                                  className="text-blue-500" download>cv.pdf</a>.
                     </p>
                 </div>
             </div>

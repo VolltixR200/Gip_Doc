@@ -25,10 +25,10 @@ export default function Home() {
           <h1 style={{fontSize: "5vh"}}>Smartschoolapplicatie</h1>
         </div>
 
-        <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+        <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-5 lg:text-left">
           <a
               href="/docs"
-              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="group rounded-lg border border-transparent px-4 py-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               rel="noopener noreferrer"
           >
             <h2 className="mb-3 text-2xl font-semibold">
@@ -45,7 +45,7 @@ export default function Home() {
 
           <a
               href="/over-ons"
-              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="group rounded-lg border border-transparent px-4 py-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               rel="noopener noreferrer"
           >
             <h2 className="mb-3 text-2xl font-semibold">
@@ -62,7 +62,7 @@ export default function Home() {
 
           <a
               href="/contact"
-              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="group rounded-lg border border-transparent px-4 py-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               rel="noopener noreferrer"
           >
             <h2 className="mb-3 text-2xl font-semibold">
@@ -79,7 +79,7 @@ export default function Home() {
 
           <a
               href="/project"
-              className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              className="group rounded-lg border border-transparent px-4 py-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
               rel="noopener noreferrer"
           >
             <h2 className="mb-3 text-2xl font-semibold">
@@ -93,7 +93,25 @@ export default function Home() {
               Vind hier alle informatie over ons project
             </p>
           </a>
+
+          <a
+              href="/besluit"
+              className="group rounded-lg border border-transparent px-4 py-3 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+              rel="noopener noreferrer"
+          >
+            <h2 className="mb-3 text-2xl font-semibold">
+              besluit{" "}
+              <span
+                  className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+            </h2>
+            <p className="m-0 max-w-[30ch] text-sm opacity-50">
+              Vind hier informatie over het besluit.
+            </p>
+          </a>
         </div>
+
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-1 lg:text-center">
           <div
               className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -106,7 +124,7 @@ export default function Home() {
                         </span>
             </h2>
             <p className="m-0 max-w-none text-balance text-sm opacity-50 text-center">
-              We hebben een smartschool-applicatie ontwikkeld voor leerkrachten van de eerste graad, om hun administratieve taken te vereenvoudigen en te digitaliseren. De applicatie is gebouwd met Next.js en Vercel en bevat onder andere een attitude-pagina voor meer overzicht. Hoewel we tijdens het project verschillende programmeertalen en platforms hebben uitgeprobeerd, zoals React en Firebase, hebben we uiteindelijk een stabiele en efficiënte oplossing kunnen realiseren.
+              We hebben een smartschool-applicatie ontwikkeld als eindwerk voor leerkrachten van de eerste graad, om hun administratieve taken te vereenvoudigen en te digitaliseren. De applicatie is gebouwd met Next.js en Vercel en bevat onder andere een attitude-pagina voor meer overzicht. Hoewel we tijdens het project verschillende programmeertalen en platforms hebben uitgeprobeerd, zoals React en Firebase, hebben we uiteindelijk een stabiele en efficiënte oplossing kunnen realiseren.
             </p>
           </div>
         </div>
